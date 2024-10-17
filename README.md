@@ -3,6 +3,4 @@ I am a Software Developer and UI/UX Designer based in Lusaka, Zambia, specializi
 
 My role encompasses the design and development of your website, with a focus on ensuring functionality, user-friendliness, and visual appeal. I am committed to integrating a personalized touch that enhances both engagement and intuitiveness. My goal is to effectively communicate your message and brand identity through innovative design solutions. With extensive experience in creating web designs for distinguished brands, I am adept at delivering high-quality results tailored to meet unique requirements and exceed expectations.
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcosmwaba)](https://github.com/anuraghazra/github-readme-stats)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marcosmwaba&hide_progress=true)
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=marcosmwabaffflabs)](https://github.com/anuraghazra/github-readme-stats)
+
