@@ -5,3 +5,4 @@ My role encompasses the design and development of your website, with a focus on 
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=marcosmwaba)](https://github.com/anuraghazra/github-readme-stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marcosmwaba&hide_progress=true)
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=marcosmwabaffflabs)](https://github.com/anuraghazra/github-readme-stats)
