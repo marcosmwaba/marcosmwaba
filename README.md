@@ -1,10 +1,7 @@
-Here’s an updated version of your introduction that emphasizes your software engineering and IT support skills:
+## Hello! there 👋  
 
----
 
 # 💫 About Me:
-
-## Hello! 👋  
 I’m a Software Developer and IT Support Specialist based in Lusaka, Zambia, with a strong background in software engineering. I am passionate about creating efficient, scalable, and robust software solutions that address real-world challenges. My work is rooted in solving complex problems through well-structured, high-quality code and system design.
 
 In addition to software development, I provide IT support services, ensuring smooth operation and maintenance of systems. I have experience troubleshooting technical issues, optimizing workflows, and enhancing system performance. Whether working on backend systems, databases, or providing hands-on support, I strive to deliver reliable and impactful solutions.
