@@ -1,17 +1,40 @@
-![Banner](https://marcosmwaba.netlify.app/banner.png)
+<p align="center">
+  <img src="Designer.png" alt="Banner" />
+</p>
 
-<h1 align="center">Hey 👋, I'm Marcos Mwaba</h1>
 <p align="center">💻 Software Developer | 🔧 IT Support Specialist | 🇿🇲 Zambian Technologist</p>
 
 ---
 
 ## 🧠 About Me
 
-I'm a passionate Full-Stack Developer and IT Support Specialist with experience in building practical, secure, and user-friendly software. I enjoy turning ideas into efficient solutions and contributing to open-source projects that make a difference.
+<p align="center" style="color:green; font-family: monospace;">
+⠉⠉⠉⠉⠁⠀⠀⠀⠀⠒⠂⠰⠤⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠻⢤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+⠀⠠⠀⠐⠒⠒⠀⠀⠈⠉⠉⠉⠉⢉⣉⣉⣉⣙⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⢀⡀⠤⠒⠒⠉⠁⠀⠀⠀⠀⠳⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⠛⠛⠉⠛⠛⠶⢦⣤⡐⢀⠀⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⠁⠀⠀⠀⠀⠀⠀⠀⠈⠉⢳⣦⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⡤⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠳⠶⢶⣦⠤⣄⡀⠀⠀⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⣄⠉⠑⢄⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡀⠀⠁<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡄⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠀<br/>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄
+</p>
 
-- 🚀 Working on: **School Document Modular System** (EDRMS)
-- 🌍 Based in: **Zambia**
-- 💬 Ask me about: React, Node.js, Supabase, Tailwind CSS, PostgreSQL, Java, and Linux
+<p align="center">
+  <img src="waving-linux.gif" height="60" alt="Waving Linux Tux"/>
+</p>
+
+<p align="center"><strong>🐧 Your Kali Linux Funboy</strong></p>
+
+- 🚀 You can depend on me to help you build a system 😉  
+- 🌍 I am Dev Based in: **Zambia, Lusaka** "Zambia ku chalo!"  
+- 💬 Ask me about: React, Node.js, Supabase, Tailwind CSS, PostgreSQL, Java, Python, C++, C#, and Linux  
 - 🎧 Favorite stack: **Green & Black tech with a clean UI feel**
 
 ---
@@ -19,27 +42,30 @@ I'm a passionate Full-Stack Developer and IT Support Specialist with experience 
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,nodejs,postgres,tailwind,html,css,js,java,linux,bash,git,vite" />
+  <img src="https://skillicons.dev/icons?i=react,ts,nodejs,postgres,tailwind,html,css,js,java,linux,bash,git,vite,c++,c#,docker" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & 🔥 Streak
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=marcosmwaba&show_icons=true&theme=chartreuse-dark" alt="GitHub Stats" />
-</p>
-
----
-
-## 🔥 Streak & Language Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=marcosmwaba&theme=chartreuse-dark" alt="GitHub Streak Stats" />
-</p>
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=marcosmwaba&show_icons=true&theme=chartreuse-dark" />
+    </td>
+    <td>
+      <img src="https://streak-stats.demolab.com?user=marcosmwaba&theme=chartreuse-dark" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcosmwaba&layout=compact&theme=chartreuse-dark" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=marcosmwaba&color=green&style=flat-square" alt="Profile Views"/>
 </p>
 
 ---
@@ -55,7 +81,7 @@ I'm a passionate Full-Stack Developer and IT Support Specialist with experience 
 ## 📌 Featured Project
 
 <p align="center">
-  <a href="https://github.com/marcosmwaba/school-document-modular-system">
+  <a href="https://github.com/paperless-ngx/paperless-ngx">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=marcosmwaba&repo=school-document-modular-system&theme=chartreuse-dark" />
   </a>
 </p>
