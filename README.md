@@ -25,11 +25,9 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠀<br/>
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄
 </p>
-
 <p align="center">
-  <img src="waving-linux.gif" height="60" alt="Waving Linux Tux"/>
+  <img src="output-onlinegiftools.gif" alt="Waving Linux" width="200"/>
 </p>
-
 <p align="center"><strong>🐧 Your Kali Linux Funboy</strong></p>
 
 - 🚀 You can depend on me to help you build a system 😉  
