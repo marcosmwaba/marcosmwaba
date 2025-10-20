@@ -2,9 +2,9 @@ name: Update GitHub profile status in README
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # runs every 5 minutes
+    - cron: '*/5 * * * *'
   workflow_dispatch: {}
-
 permissions:
   contents: write
 
@@ -22,7 +22,7 @@ jobs:
           script: |
             const fs = require('fs');
             const child = require('child_process');
-            const core = require('@actions/core');
+        
 
             const query = `query { user(login: "marcosmwaba") { status { emoji message indicatesLimitedAvailability expiresAt } } }`;
             const result = await github.graphql(query);
