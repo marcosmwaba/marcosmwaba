@@ -1,0 +1,67 @@
+name: Update GitHub profile status in README
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch status and update README
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const child = require('child_process');
+            const core = require('@actions/core');
+
+            const query = `query { user(login: "marcosmwaba") { status { emoji message indicatesLimitedAvailability expiresAt } } }`;
+            const result = await github.graphql(query);
+
+            const statusObj = result && result.user && result.user.status ? result.user.status : null;
+            let statusText = '';
+            if (statusObj) {
+              const emoji = statusObj.emoji || '';
+              const msg = statusObj.message || '';
+              statusText = (emoji + ' ' + msg).trim();
+            }
+
+            core.info(`Fetched status: ${statusText || '<empty>'}`);
+
+            const path = 'README.md';
+            let content;
+            try {
+              content = fs.readFileSync(path, 'utf8');
+            } catch (e) {
+              core.setFailed(`Cannot read ${path}: ${e.message}`);
+              return;
+            }
+
+            const newBlock = statusText
+              ? `<!-- STATUS:START -->\n**GitHub status:** ${statusText}\n<!-- STATUS:END -->`
+              : `<!-- STATUS:START -->\n**GitHub status:** _No status set_\n<!-- STATUS:END -->`;
+
+            const re = /<!-- STATUS:START -->[\s\S]*?<!-- STATUS:END -->/;
+            const updated = re.test(content) ? content.replace(re, newBlock) : content.replace(/\s*$/, '') + '\n\n' + newBlock + '\n';
+
+            fs.writeFileSync(path, updated, 'utf8');
+
+            child.execSync('git config user.name "github-actions[bot]"');
+            child.execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
+            try {
+              child.execSync('git add README.md');
+              child.execSync('git commit -m "chore: update GitHub profile status in README"');
+              child.execSync('git push');
+              core.info('Committed README update');
+            } catch (err) {
+              core.info('No changes to commit or push: ' + err.message);
+            }
