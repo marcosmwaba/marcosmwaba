@@ -60,3 +60,8 @@
 <p align="center">
   <em>"Code with passion, support with purpose, and innovate with heart."</em>
 </p>
+
+
+<!-- STATUS:START -->
+**GitHub status:** :tired_face: we getting there
+<!-- STATUS:END -->
