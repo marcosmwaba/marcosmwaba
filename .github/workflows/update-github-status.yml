@@ -20,8 +20,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs = require('fs');
+            const fs =Error: Identifier 'core' has already been declared. In your workflow script (see .github/workflows/update-github require('fs');
             const child = require('child_process');
+
         
 
             const query = `query { user(login: "marcosmwaba") { status { emoji message indicatesLimitedAvailability expiresAt } } }`;
