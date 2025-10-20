@@ -1,0 +1,79 @@
+name: Update GitHub profile status in README
+
+on:
+  schedule:
+    # runs hourly — change cron if you want less/more frequent updates
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install jq (for parsing)
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Fetch GitHub profile status via GraphQL
+        id: fetch_status
+        run: |
+          # GraphQL query to get your profile status
+          read -r -d '' GQL <<'GRAPHQL'
+          {"query":"query { user(login: \"marcosmwaba\") { status { emoji message indicatesLimitedAvailability expiresAt } } }"}
+          GRAPHQL
+
+          STATUS_JSON=$(curl -s -H "Authorization: bearer ${{ secrets.GITHUB_TOKEN }}" -X POST -d "$GQL" https://api.github.com/graphql)
+          echo "raw_status=$STATUS_JSON" >> status_raw.txt
+
+          # Extract emoji and message; fall back to empty strings if null
+          STATUS_MSG=$(echo "$STATUS_JSON" | jq -r '.data.user.status | if .==null then "" else ((.emoji // "") + " " + (.message // "") | gsub("^\\s+|\\s+$"; "")) end')
+          # Make it safe for environment export
+          echo "STATUS_MSG<<EOF" >> $GITHUB_ENV
+          echo "$STATUS_MSG" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Replace status block in README.md
+        env:
+          STATUS_MSG: ${{ env.STATUS_MSG }}
+        run: |
+          if [ -z "$STATUS_MSG" ]; then
+            NEW_CONTENT="<!-- STATUS:START -->\n**GitHub status:** _No status set_\n<!-- STATUS:END -->"
+          else
+            # escape any slashes/newlines for safety in replacement
+            ESCAPED=$(printf '%s' "$STATUS_MSG" | sed -e 's/[&/\]/\\&/g')
+            NEW_CONTENT="<!-- STATUS:START -->\n**GitHub status:** $ESCAPED\n<!-- STATUS:END -->"
+          fi
+
+          python3 - <<PY
+import os, re
+fn = 'README.md'
+text = open(fn, encoding='utf-8').read()
+new = """%s""" % os.environ.get('NEW_CONTENT', '')
+# If NEW_CONTENT came from bash it's not in env; use the one we construct below
+if not new.strip():
+    new = """%s""" % """$NEW_CONTENT"""
+# Do the replacement; if the markers do not exist, append at the end
+pattern = re.compile(r'<!-- STATUS:START -->.*?<!-- STATUS:END -->', re.S)
+if pattern.search(text):
+    out = pattern.sub(new, text)
+else:
+    out = text + "\n\n" + new
+open(fn, 'w', encoding='utf-8').write(out)
+PY
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No README changes to commit."
+          else
+            git add README.md
+            git commit -m "chore: update GitHub profile status in README"
+            git push
+          fi
