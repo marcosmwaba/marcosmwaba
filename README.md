@@ -43,47 +43,7 @@
   <img src="https://skillicons.dev/icons?i=react,ts,nodejs,postgres,tailwind,html,css,js,java,linux,bash,git,vite,cplusplus,c#,docker" />
 </p>
 
----
-
-## 📊 GitHub Stats & 🔥 Streak
-
-<table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=marcosmwaba&show_icons=true&theme=chartreuse-dark" alt="Marcos Mwaba GitHub Stats" />
-    </td>
-    <td>
-      <img src="https://streak-stats.demolab.com?user=marcosmwaba&theme=chartreuse-dark" alt="Marcos Mwaba GitHub Streak" />
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcosmwaba&layout=compact&theme=chartreuse-dark" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=marcosmwaba&color=green&style=flat-square" alt="Profile Views"/>
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=marcosmwaba&theme=darkhub&margin-w=15&margin-h=15" alt="Marcos Mwaba GitHub Trophies" />
-</p>
-
----
-
-## 📌 Featured Project
-
-<p align="center">
-    <a href="https://github.com/marcosmwaba/school-document-modular-system">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=marcosmwaba&repo=school-document-modular-system&theme=chartreuse-dark" alt="Featured Project: school-document-modular-system" />
-  </a>
-</p>
----
+**GitHub status:** _No status set_
 
 ## 🤝 Let's Connect
 
