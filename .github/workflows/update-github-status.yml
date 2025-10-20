@@ -2,9 +2,9 @@ name: Update GitHub profile status in README
 
 on:
   schedule:
-    # runs every 5 minutes
     - cron: '*/5 * * * *'
   workflow_dispatch: {}
+
 permissions:
   contents: write
 
@@ -20,10 +20,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const fs =Error: Identifier 'core' has already been declared. In your workflow script (see .github/workflows/update-github require('fs');
+            // keep declarations minimal — github-script injects 'github', 'context', and 'core'
+            const fs = require('fs');
             const child = require('child_process');
-
-        
 
             const query = `query { user(login: "marcosmwaba") { status { emoji message indicatesLimitedAvailability expiresAt } } }`;
             const result = await github.graphql(query);
@@ -51,18 +50,31 @@ jobs:
               ? `<!-- STATUS:START -->\n**GitHub status:** ${statusText}\n<!-- STATUS:END -->`
               : `<!-- STATUS:START -->\n**GitHub status:** _No status set_\n<!-- STATUS:END -->`;
 
-            const re = /<!-- STATUS:START -->[\s\S]*?<!-- STATUS:END -->/;
-            const updated = re.test(content) ? content.replace(re, newBlock) : content.replace(/\s*$/, '') + '\n\n' + newBlock + '\n';
+            const re = /<!-- STATUS:START -->[\\s\\S]*?<!-- STATUS:END -->/;
+            const updated = re.test(content) ? content.replace(re, newBlock) : content.replace(/\\s*$/, '') + '\n\n' + newBlock + '\n';
+
+            if (updated === content) {
+              core.info('No README change required.');
+              return;
+            }
 
             fs.writeFileSync(path, updated, 'utf8');
 
+            // configure git and push only if there are changes
             child.execSync('git config user.name "github-actions[bot]"');
             child.execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
+
             try {
               child.execSync('git add README.md');
+              // Only commit if there is something to commit
+              const status = child.execSync('git status --porcelain').toString().trim();
+              if (!status) {
+                core.info('No changes to commit after add.');
+                return;
+              }
               child.execSync('git commit -m "chore: update GitHub profile status in README"');
               child.execSync('git push');
-              core.info('Committed README update');
+              core.info('Committed README update.');
             } catch (err) {
               core.info('No changes to commit or push: ' + err.message);
             }
