@@ -48,22 +48,22 @@
 ## 📊 GitHub Stats & 🔥 Streak
 
 <table align="center">
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=marcosmwaba&show_icons=true&theme=chartreuse-dark" />
-    </td>
-    <td>
-      <img src="https://streak-stats.demolab.com?user=marcosmwaba&theme=chartreuse-dark" />
-    </td>
-  </tr>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=marcosmwaba&show_icons=true&theme=chartreuse-dark" alt="Marcos Mwaba GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://streak-stats.demolab.com?user=marcosmwaba&theme=chartreuse-dark" alt="Marcos Mwaba GitHub Streak" />
+    </td>
+  </tr>
 </table>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcosmwaba&layout=compact&theme=chartreuse-dark" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marcosmwaba&layout=compact&theme=chartreuse-dark" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=marcosmwaba&color=green&style=flat-square" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=marcosmwaba&color=green&style=flat-square" alt="Profile Views"/>
 </p>
 
 ---
@@ -71,7 +71,7 @@
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=marcosmwaba&theme=darkhub&margin-w=15&margin-h=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=marcosmwaba&theme=darkhub&margin-w=15&margin-h=15" alt="Marcos Mwaba GitHub Trophies" />
 </p>
 
 ---
@@ -79,21 +79,10 @@
 ## 📌 Featured Project
 
 <p align="center">
-  <a href="https://github.com/paperless-ngx/paperless-ngx">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=marcosmwaba&repo=school-document-modular-system&theme=chartreuse-dark" />
-  </a>
+    <a href="https://github.com/marcosmwaba/school-document-modular-system">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=marcosmwaba&repo=school-document-modular-system&theme=chartreuse-dark" alt="Featured Project: school-document-modular-system" />
+  </a>
 </p>
-
----
-
-## 🎧 My Spotify Playlist
-
-<p align="center">
-  <a href="https://open.spotify.com/playlist/0Ggsrxu0uRouezvvwlQ4ew" target="_blank">
-    <img src="https://img.shields.io/badge/My%20Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
-  </a>
-</p>
-
 ---
 
 ## 🤝 Let's Connect
