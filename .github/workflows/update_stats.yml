@@ -1,0 +1,122 @@
+name: Update GitHub profile status, languages, and stack
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch GitHub data and update README
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+            const child = require("child_process");
+
+            // GraphQL query — fetch status + recent repositories
+            const query = `
+            query {
+              user(login: "marcosmwaba") {
+                status { emoji message }
+                repositories(first: 20, orderBy: {field: UPDATED_AT, direction: DESC}) {
+                  nodes {
+                    name
+                    primaryLanguage { name color }
+                  }
+                }
+              }
+            }`;
+
+            const result = await github.graphql(query);
+            const user = result.user;
+
+            // Extract GitHub status
+            const emoji = user.status?.emoji || "";
+            const message = user.status?.message || "";
+            const statusText = (emoji + " " + message).trim() || "_No status set_";
+
+            // Compute top languages
+            const langs = {};
+            user.repositories.nodes.forEach(repo => {
+              const lang = repo.primaryLanguage?.name;
+              if (lang) langs[lang] = (langs[lang] || 0) + 1;
+            });
+
+            const topLangs = Object.entries(langs)
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 5)
+              .map(([lang]) => "- " + lang)
+              .join("\\n");
+
+            // Define your tech stack manually
+            const techStack = [
+              "Java ☕",
+              "JavaFX 🎨",
+              "Spring Boot 🌱",
+              "Django 🐍",
+              "Node.js ⚙️",
+              "PostgreSQL 🐘",
+              "React ⚛️",
+              "Vue.js 🖼️",
+              "Tailwind CSS 💨"
+            ].join(", ");
+
+            // Build the new README block (notice escaped ** for YAML safety)
+            const newBlock = `<!-- STATUS:START -->
+\*\*GitHub Status:\*\* ${statusText}
+
+\*\*Top Languages (recent repos):\*\*
+${topLangs || "_No data_"}
+
+\*\*Tech Stack:\*\* ${techStack}
+<!-- STATUS:END -->`;
+
+            // Read and update README.md
+            const path = "README.md";
+            let content;
+            try {
+              content = fs.readFileSync(path, "utf8");
+            } catch (e) {
+              core.setFailed("Cannot read README.md: " + e.message);
+              return;
+            }
+
+            const re = /<!-- STATUS:START -->[\\s\\S]*?<!-- STATUS:END -->/;
+            const updated = re.test(content)
+              ? content.replace(re, newBlock)
+              : content.trimEnd() + "\\n\\n" + newBlock + "\\n";
+
+            if (updated === content) {
+              core.info("No README changes detected.");
+              return;
+            }
+
+            fs.writeFileSync(path, updated, "utf8");
+
+            // Commit and push changes
+            child.execSync('git config user.name "github-actions[bot]"');
+            child.execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
+
+            try {
+              child.execSync("git add README.md");
+              const status = child.execSync("git status --porcelain").toString().trim();
+              if (!status) {
+                core.info("No changes to commit.");
+                return;
+              }
+              child.execSync('git commit -m "chore: auto-update profile status, languages, and stack"');
+              child.execSync("git push");
+              core.info("Committed and pushed README update.");
+            } catch (err) {
+              core.info("No changes to commit or push: " + err.message);
+            }
