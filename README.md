@@ -1,317 +1,83 @@
-<p align="center">
-  <img src="Designer.png" alt="Banner" />
-</p>
-
-<p align="center">💻 Software Developer | 🔧 IT Support Specialist | 🇿🇲 Zambian Technologist</p>
-
----
-
-## 🧠 About Me
-
-<p align="center" style="color:green; font-family: monospace;">
-⠉⠉⠉⠉⠁⠀⠀⠀⠀⠒⠂⠰⠤⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠻⢤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
-⠀⠠⠀⠐⠒⠒⠀⠀⠈⠉⠉⠉⠉⢉⣉⣉⣉⣙⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⢀⡀⠤⠒⠒⠉⠁⠀⠀⠀⠀⠳⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⠛⠛⠉⠛⠛⠶⢦⣤⡐⢀⠀⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⡿⠁⠀⠀⠀⠀⠀⠀⠀⠈⠉⢳⣦⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⡤⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢷⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠳⠶⢶⣦⠤⣄⡀⠀⠀⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⣄⠉⠑⢄⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⡀⠀⠁<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡄⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠀<br/>
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡄
-</p>
-<p align="center">
-  <img src="output-onlinegiftools.gif" alt="Waving Linux" width="200"/>
-</p>
-<p align="center"><strong>🐧 Your Kali Linux Funboy</strong></p>
-
-- 🚀 You can depend on me to help you build a system 😉  
-- 🌍 I am Dev Based in: **Zambia, Lusaka** "Zambia ku chalo!"  
-- 💬 Ask me about: React, Node.js, Supabase, Tailwind CSS, PostgreSQL, Java, Python, C++, C#, and Linux  
-- 🎧 Favorite stack: **Green & Black tech with a clean UI feel**
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,nodejs,postgres,tailwind,html,css,js,java,linux,bash,git,vite,cplusplus,c#,docker" />
-</p>
-
-**GitHub status:** _No status set_
-
-## 🤝 Let's Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/marcosmwaba-825219280/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://github.com/marcosmwaba"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://marcosmwaba.netlify.app"><img src="https://img.shields.io/badge/Portfolio-green?style=for-the-badge&logo=netlify&logoColor=white" /></a>
-  <a href="https://www.instagram.com/marcos_mwaba/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://web.facebook.com/lamarcosmwaba"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-</p>
-
----
-
-<p align="center">
-  <em>"Code with passion, support with purpose, and innovate with heart."</em>
-</p>
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
-
-
-<!-- STATUS:START -->
-**GitHub status:** :tired_face: we getting there
-<!-- STATUS:END -->
+<div style="
+  background-color:#020b08;
+  border:2px solid #00ff9c;
+  border-radius:12px;
+  padding:22px;
+  font-family: Consolas, 'Courier New', monospace;
+  max-width:1000px;
+  margin:20px auto;
+  color:#00ff9c;
+">
+
+<!-- HEADER -->
+<div style="font-size:22px; font-weight:bold; letter-spacing:2px;">
+  <span style="color:#00ff9c;">DEV</span>
+  <span style="color:#00c8ff;"> MARCOS</span>
+  <span style="color:#ffb000;"> MWABA</span>
+</div>
+
+<div style="color:#8affc1; margin-top:6px;">
+  SYSTEM INTERFACE v3.1 • SESSION ACTIVE
+</div>
+
+<hr style="border:0; border-top:1px dashed #00ff9c; margin:14px 0;">
+
+<!-- PROMPT -->
+<div>
+  <span style="color:#00ff9c;">&gt;</span>
+  <span style="color:#00ffaa;">
+    initializing professional profile
+  </span>
+  <span style="color:#00ff9c;"> █</span>
+</div>
+
+<!-- ROLE -->
+<div style="margin-top:14px;">
+  <span style="color:#ffb000;">ROLE:</span>
+  <span style="color:#00c8ff; font-weight:bold;">
+    EDUCATIONAL TECHNOLOGIST
+  </span>
+</div>
+
+<div style="color:#8affc1; margin-top:4px;">
+  bridging education, systems, and technology
+</div>
+
+<br>
+
+<!-- MODULES -->
+<div style="color:#ffb000;">ACTIVE MODULES</div>
+
+<pre style="
+  margin-top:8px;
+  color:#00ff9c;
+  background:transparent;
+">
+
+[ LANGUAGES ]
+  <span style="color:#00ffaa;">COBOL</span>        <span style="color:#00c8ff;">JAVA</span>        <span style="color:#ffb000;">JAVAFX</span>
+  <span style="color:#00ffaa;">PYTHON</span>       <span style="color:#00c8ff;">JAVASCRIPT</span>  <span style="color:#ffb000;">TYPESCRIPT</span>
+  <span style="color:#00ffaa;">SQL</span>          <span style="color:#00c8ff;">HTML</span>        <span style="color:#ffb000;">CSS</span>
+
+[ SYSTEMS / TOOLS ]
+  <span style="color:#00ffaa;">SPRING-BOOT</span>   <span style="color:#00c8ff;">NODE.JS</span>
+  <span style="color:#ffb000;">REACT</span>         <span style="color:#00ffaa;">SUPABASE</span>
+  <span style="color:#00c8ff;">DOCKER</span>        <span style="color:#ffb000;">LINUX</span>
+
+[ SPECIALIZATION ]
+  • EDUCATIONAL SYSTEM DESIGN
+  • SCHOOL DOCUMENT MANAGEMENT (EDRMS)
+  • ICT CURRICULUM & DIGITAL TRANSFORMATION
+  • ROLE-BASED ACCESS & DATA SECURITY
+
+</pre>
+
+<!-- STATUS -->
+<div style="margin-top:12px;">
+  <span style="color:#00c8ff;">STATUS:</span>
+  <span style="color:#00ffaa; font-weight:bold;">
+    ONLINE • READY • BUILDING
+  </span>
+</div>
+
+</div>
