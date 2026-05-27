@@ -41,7 +41,7 @@
 <text x="40" y="58"  fill="#3A7040" font-family="'Courier New',monospace" font-size="12">LOADING PROGRAM..............................[<tspan fill="#33FF41">OK</tspan>]</text>
 <text x="40" y="74"  fill="#3A7040" font-family="'Courier New',monospace" font-size="12">CHECKING SYNTAX..............................[<tspan fill="#33FF41">0 ERRORS</tspan>]</text>
 <text x="40" y="90"  fill="#3A7040" font-family="'Courier New',monospace" font-size="12">ALLOCATING WORKING-STORAGE...................[<tspan fill="#33FF41">DONE</tspan>]</text>
-<text x="40" y="106" fill="#3A7040" font-family="'Courier New',monospace" font-size="12">EXECUTION STARTED — <tspan fill="#33FF41" font-weight="bold">MARCOS-MWABA-PROFILE.CBL</tspan></text>
+<text x="40" y="106" fill="#3A7040" font-family="'Courier New',monospace" font-size="12">EXECUTION STARTED — <tspan fill="#33FF41" font-weight="bold">PETER-MARCOS-MWABA-PROFILE.CBL</tspan></text>
 
 <!-- ── TUX PENGUIN (top-right, bobbing) ── -->
 <g filter="url(#pglow)">
@@ -82,11 +82,11 @@
 <line x1="40" y1="128" x2="820" y2="128" stroke="#1A4020" stroke-width="0.8"/>
 <text x="40" y="124" fill="#FFB000" font-family="'Courier New',monospace" font-size="15" font-weight="bold" letter-spacing="2" filter="url(#aglow)">IDENTIFICATION DIVISION.</text>
 
-<text x="90"  y="146" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">PROGRAM-ID.    </tspan><tspan fill="#33FF41">MARCOS-MWABA.</tspan></text>
+<text x="90"  y="146" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">PROGRAM-ID.    </tspan><tspan fill="#33FF41">DEVELOPER PROFILE.</tspan></text>
 <text x="90"  y="163" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">AUTHOR.        </tspan><tspan fill="#33FF41">MARCOS MWABA.</tspan></text>
-<text x="90"  y="180" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">INSTALLATION.  </tspan><tspan fill="#33FF41">KITWE, ZAMBIA, AFRICA.</tspan></text>
+<text x="90"  y="180" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">INSTALLATION.  </tspan><tspan fill="#33FF41">LUSAKA, ZAMBIA, AFRICA.</tspan></text>
 <text x="90"  y="197" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">REMARKS.</tspan></text>
-<text x="140" y="213" fill="#3A7040" font-family="'Courier New',monospace" font-size="12" font-style="italic">* ZAMBIAN SOFTWARE DEVELOPER &amp; ICT SUPPORT SPECIALIST.</text>
+<text x="140" y="213" fill="#3A7040" font-family="'Courier New',monospace" font-size="12" font-style="italic">* ZAMBIAN SOFTWARE DEVELOPER &amp; EDUCATION TECHNOLOGIST.</text>
 <text x="140" y="229" fill="#3A7040" font-family="'Courier New',monospace" font-size="12" font-style="italic">* STATUS: OPEN-TO-COLLABORATION.</text>
 
 <!-- ═══════════════════════════════════════════════════ -->
@@ -97,7 +97,7 @@
 
 <text x="90"  y="267" font-family="'Courier New',monospace" font-size="13"><tspan fill="#CC8C00" font-weight="bold">CONFIGURATION SECTION.</tspan></text>
 <text x="140" y="284" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">SOURCE-COMPUTER.  </tspan><tspan fill="#33FF41">LINUX-KALI-GNOME-EDITION.</tspan></text>
-<text x="140" y="301" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">OBJECT-COMPUTER.  </tspan><tspan fill="#33FF41">ZAMBIA-DEV-WORKSTATION.</tspan></text>
+<text x="140" y="301" font-family="'Courier New',monospace" font-size="13"><tspan fill="#FFB000" font-weight="bold">OBJECT-WORK-STATION.  </tspan><tspan fill="#33FF41">PEMARCOM INTEGRATED SOLUTIONS.</tspan></text>
 
 <!-- ═══════════════════════════════════════════════════ -->
 <!-- DATA DIVISION -->
@@ -109,8 +109,8 @@
 
 <text x="90"  y="360" font-family="'Courier New',monospace" font-size="13"><tspan fill="#CC8C00">01 </tspan><tspan fill="#BBFFCC" font-weight="bold">DEVELOPER-PROFILE.</tspan></text>
 <text x="140" y="376" font-family="'Courier New',monospace" font-size="12"><tspan fill="#CC8C00">05 </tspan><tspan fill="#FFB000" font-weight="bold">FULL-NAME  </tspan><tspan fill="#00FFCC">PIC X(20) </tspan><tspan fill="#FFB000" font-weight="bold">VALUE </tspan><tspan fill="#AAFFBB">'MARCOS MWABA'.</tspan></text>
-<text x="140" y="392" font-family="'Courier New',monospace" font-size="12"><tspan fill="#CC8C00">05 </tspan><tspan fill="#FFB000" font-weight="bold">TITLE      </tspan><tspan fill="#00FFCC">PIC X(40) </tspan><tspan fill="#FFB000" font-weight="bold">VALUE </tspan><tspan fill="#AAFFBB">'SOFTWARE DEVELOPER &amp; ICT SPECIALIST'.</tspan></text>
-<text x="140" y="408" font-family="'Courier New',monospace" font-size="12"><tspan fill="#CC8C00">05 </tspan><tspan fill="#FFB000" font-weight="bold">LOCATION   </tspan><tspan fill="#00FFCC">PIC X(25) </tspan><tspan fill="#FFB000" font-weight="bold">VALUE </tspan><tspan fill="#AAFFBB">'KITWE, ZAMBIA, AFRICA'.</tspan></text>
+<text x="140" y="392" font-family="'Courier New',monospace" font-size="12"><tspan fill="#CC8C00">05 </tspan><tspan fill="#FFB000" font-weight="bold">TITLE      </tspan><tspan fill="#00FFCC">PIC X(40) </tspan><tspan fill="#FFB000" font-weight="bold">VALUE </tspan><tspan fill="#AAFFBB">'SOFTWARE DEVELOPER &amp; EDUCATION TECHNOLOGIST'.</tspan></text>
+<text x="140" y="408" font-family="'Courier New',monospace" font-size="12"><tspan fill="#CC8C00">05 </tspan><tspan fill="#FFB000" font-weight="bold">LOCATION   </tspan><tspan fill="#00FFCC">PIC X(25) </tspan><tspan fill="#FFB000" font-weight="bold">VALUE </tspan><tspan fill="#AAFFBB">'LUSAKA, ZAMBIA, AFRICA'.</tspan></text>
 <text x="140" y="424" font-family="'Courier New',monospace" font-size="12"><tspan fill="#CC8C00">05 </tspan><tspan fill="#FFB000" font-weight="bold">STATUS     </tspan><tspan fill="#00FFCC">PIC X(12) </tspan><tspan fill="#FFB000" font-weight="bold">VALUE </tspan><tspan fill="#AAFFBB">'AVAILABLE'.</tspan></text>
 
 <text x="90"  y="445" font-family="'Courier New',monospace" font-size="13"><tspan fill="#CC8C00">01 </tspan><tspan fill="#BBFFCC" font-weight="bold">TECHNICAL-SKILLS-TABLE.</tspan></text>
@@ -245,7 +245,7 @@
 <rect x="0"   y="1249" width="860" height="21" fill="#228B2E"/>
 <text x="12"  y="1263" fill="#000" font-family="'Courier New',monospace" font-size="10" font-weight="bold" letter-spacing="1">RC=00 — EXECUTION COMPLETE</text>
 <text x="430" y="1263" fill="#000" font-family="'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="middle">MARCOS MWABA © 2024</text>
-<text x="848" y="1263" fill="#000" font-family="'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="end">KITWE, ZM</text>
+<text x="848" y="1263" fill="#000" font-family="'Courier New',monospace" font-size="10" font-weight="bold" text-anchor="end">LUSAKA, ZM</text>
 
 <!-- blinking cursor in status bar -->
 <rect x="788" y="1253" width="8" height="12" fill="#000" class="cur"/>
