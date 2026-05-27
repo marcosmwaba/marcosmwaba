@@ -1,0 +1,3 @@
+<div align="center">
+  <img src="./profile.svg" alt="Marcos Mwaba — COBOL Profile" width="100%"/>
+</div>
